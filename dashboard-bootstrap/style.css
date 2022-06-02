@@ -1,0 +1,257 @@
+/* universal  */
+*{
+    margin: 0;
+}
+/* home style */
+.home_container {
+    height: 100vh;
+}
+/* sidebar style */
+#sidebar {
+    width: 20%;
+    background-color: #32334a;
+}
+/* navbar div */
+.header-column {
+    /* flex: 1; */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* search */
+.form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    background-color: #dee1eb;
+    width: 100%;
+    padding: 5px 35px 5px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+/* end of search */
+
+/* drop down */
+.lang {
+    margin-left: 10px;
+    background: transparent;
+    color: #71788f;
+    border: none;
+    cursor: pointer;
+}
+/* image */
+.l_img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* margin-right: 10px; */
+}
+/* create dropdown */
+.create_select {
+    padding: 7px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* dashboard div */
+.dashboardcontainer {
+    padding: 0;
+    height: 100%;
+    flex: 1;
+    background-color: #e0e4eb;
+    overflow-y: scroll;
+}
+/* admin heading */
+.welcome > h4 {
+    color: #696f75;
+}
+/* admin para */
+.welcome > p {
+    color: #969b9f;
+}
+
+/* sidebar_css */
+.companyname {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #b2b6bc;
+}
+
+.h6main {
+    color: #747f94;;
+}
+
+.links > a {
+    color: #747f94;
+    text-decoration: none;
+}
+/* end of sidebar */
+
+
+/* cards */
+.card {
+    background-color: #626ed3;   
+    width: 270px;
+    margin-top: 15px;
+
+}
+
+.info > h4 {
+    font-size: 14px;
+    color: #a1abe5;
+}
+
+.info > p {
+    font-size: 22px;
+    color: #fff;
+}
+
+.polygon {
+    clip-path: polygon(9% 0, 100% 0, 100% 95%, 0 95%, 34% 40%);
+    background-color: #2ba399;
+    height: 20px;
+    width: 65px;
+}
+
+.polygon > p {
+    font-size: small;
+}
+
+.rightpart {
+    top: 12%;
+}
+
+.past > p {
+    color: #a1abe5;
+    font-size: 15px;
+}
+
+.red{
+    background-color: #ea4662;
+}
+
+.blue {
+    background-color: #37a5f8;
+}
+
+.yellow {
+    background-color: #f6b622;
+}
+
+/* end of cards */
+/* start of table */
+.transactiontable {
+    width: 65%;
+    background-color: #fff;
+}
+
+.tableclass {
+    width: 100%;
+    /* background-color: cyan; */
+    overflow-x: scroll;
+}
+
+th, td {
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    text-align: start !important;
+}
+/* end of table */
+/* card  color */
+.delivered > wrap {
+    background-color: #52b4ab;
+    color: #fff;
+    font-size: small;
+}
+
+.pending > wrap {
+    background-color: #f3b528;
+    color: #fff;
+    font-size: small;
+}
+
+.cancel > wrap {
+    background-color: #e9435b;
+    color: #fff;
+    font-size: small;
+}
+
+/* end of card color */
+/* start of chatbox */
+.chatbox {
+    background-color: #fff;
+    width: 350px;
+    height: 450px;
+}
+
+.chatContainer {
+    height: 330px;
+    overflow-y: scroll;
+}
+
+.msg1 {
+    background-color: #dfe4f6;
+    border-radius: 4px;
+}
+
+.msg2 {
+    background-color: #edf1f4;
+    border-radius: 4px;
+}
+
+.msg2 > h4 {
+    font-size: medium;
+}
+
+.msg1 > h4 {
+    font-size: medium;
+}
+
+.msg1,.msg2 > p {
+    font-size: small;
+}
+/* end of chatbox */
+/* media query */
+
+@media only screen and (max-width: 820px) {
+    .transactiontable {
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    .chatbox {
+        margin-top: 24px;
+        width: 90%;
+        height: 450px;
+    }
+    
+}
+/* end of media query */
+@media only screen and (max-width: 500px) {
+    .head{
+        display: none;
+    }
+    #head,#head1{
+        display: none;
+    }
+    
+}

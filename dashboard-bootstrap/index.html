@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>GeekyAnts Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="d-flex flex-row home_container">
+
+        <!-- start of sidebar -->
+        <div class="container-fluid" id="sidebar">
+            <div class="container-fluid companyname">
+                <!-- header -->
+                <h3 class="mb-0" id="head">GeekyAnts</h3>
+            </div>
+            <div class="d-flex flex-column">
+                <!-- sub header -->
+                <h6 class="h6main" id="head1">main</h6>
+                <div class="d-flex mt-2 mb-2">
+                    <!-- side bar -->
+                    <div class="links">
+                        <img class="me-3" src="icons/home-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Dashboard</a>
+                    </div>
+                </div>
+                <div class="d-flex mt-2 mb-2">
+                    <div class="links">
+                        <img class="me-3" src="icons/calendar-alt-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Calendar</a>
+                    </div>
+                </div>
+                <div class="d-flex mt-2 mb-2 justify-content-between">
+                    <div class="links">
+                        <img class="me-3" src="icons/envelope-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Email</a>
+                    </div>
+                    <img class="arrow" src="icons/chevron-right-regular-24.png" alt="chevron" height="20px">
+                </div>
+                <div class="d-flex mt-2 mb-2">
+                    <div class="links">
+                        <img class="me-3" src="icons/package-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">UI&nbsp;Elements</a>
+                    </div>
+                </div>
+                <div class="d-flex mt-2 mb-2">
+                    <div class="links">
+                        <img class="me-3" src="icons/spreadsheet-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Forms</a>
+                    </div>
+                </div>
+                <div class="d-flex mt-2 mb-2 justify-content-between">
+                    <div class="links">
+                        <img class="me-3" src="icons/pie-chart-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Charts</a>
+                    </div>
+                    <img class="arrow" src="icons/chevron-right-regular-24.png" alt="chevron" height="20px">
+                </div>
+                <div class="d-flex mt-2 mb-2 justify-content-between">
+                    <div class="links">
+                        <img class="me-3" src="icons/table-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Tables</a>
+                    </div>
+                    <img class="arrow" src="icons/chevron-right-regular-24.png" alt="chevron" height="20px">
+                </div>
+                <div class="d-flex mt-2 mb-2 justify-content-between">
+                    <div class="links">
+                        <img class="me-3" src="icons/smile-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Icons</a>
+                    </div>
+                    <img class="arrow" src="icons/chevron-right-regular-24.png" alt="chevron" height="20px">
+                </div>
+                <div class="d-flex mt-2 mb-2">
+                    <div class="links">
+                        <img class="me-3" src="icons/map-regular-24.png" alt="icon" height="22px">
+                        <a href="#" class="head">Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of sidebar -->
+        <!-- start of navbar -->
+        <div class="container-fluid header-column d-flex flex-column">
+
+
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <div class="d-flex flex-row">
+                        <!-- button -->
+                        <button class="navbar-toggler d-lg-inline" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="icons/menu-regular-24.png" alt="menu" height="30px">
+                          </button>
+                        <!-- create -->
+                          <select class="create_select">
+                            <option value="val">Create</option>
+                            <option value="val">Other</option>
+                            <option value="val">a</option>
+                            <option value="val">b</option>
+                            <option value="val">c</option>
+                            <option value="val">d</option>
+
+                        </select>
+                    </div>
+                    <!-- another button -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="icons/menu-regular-24.png" alt="menu" height="30px">
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                      <!-- button like search,bell,profile etc -->
+                    <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link " aria-current="page" href="#">
+                            <form action="/" method="GET" class="form">
+                                <input type="search" placeholder="Search" class="search-field" />
+                                <button type="submit" class="search-button">
+                                  <img src="icons/search-alt-2-regular-24.png" height="10px">
+                                </button>
+                              </form>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img src="icons/icons8-usa-48.png" alt="flag" height="30px">
+                            <select class="lang">
+                                <option value="lang">English</option>
+                                <option value="lang">Other</option>
+                            </select>
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="icons/expand-alt-regular-24.png" alt="expand" height="20px"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="icons/bell-regular-24.png" alt="bell" height="20px"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img class="l_img" src="images/boy2.jpg" alt="image"></a>
+                        </li>
+                      </ul>    
+                  </div>
+                </div>
+              </nav>
+              <!-- heading and sub-heading -->
+
+              <div class="container-fluid dashboardcontainer">
+                <div class="container-fluid mt-4 d-flex justify-content-between align-items-center">
+                    <div class="ms-2 welcome d-flex flex-column ">
+                        <h4 class="mb-0 p-0">Dashboard</h4>
+                        <p class="mb-0 p-0">welcome to Veltrix Dashboard</p>
+                    </div>
+                    <!-- setting button  -->
+                    <div class="setting_button">
+                        <button class="btn btn-primary me-4">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>Settings</span> 
+                        </button>
+                    </div>
+                </div>
+               <!-- start of Card -->
+                <div class="cardContainer d-flex flex-row flex-wrap">
+                    <!-- card-1 -->
+
+                    <div class="card ms-4 position-relative">
+                        <div class="d-flex">
+                            <div class="mt-3 ms-3 me-3 d-flex flex-row">
+                                <img src="icons/order.png" alt="order_img" height="55px">
+                                <div class="info ms-2">
+                                    <h4>ORDERS</h4>
+                                    <p>1,685</p>
+                                </div>
+                            </div>
+                            <div class="rightpart position-absolute end-0">
+                                <div class="polygon d-flex justify-content-end" >
+                                    <p>+ 12%</p>
+                                </div>
+                                <img class="mt-2" src="icons/up-arrow-alt-regular-24.png" alt="+" height="23px">
+                            </div>
+                        </div>
+                        <div class="past d-flex ms-3 me-3 justify-content-between">
+                            <p>Since last month</p>
+                            <img src="icons/right-arrow-alt-regular-24.png" alt="expand" height="23px">
+                        </div>
+                    </div>
+                    <!-- card-2 -->
+
+                    <div class="card ms-4 position-relative">
+                        <div class="d-flex">
+                            <div class="mt-3 ms-3 me-3 d-flex flex-row">
+                                <img src="icons/revenue.png" alt="order_img" height="55px">
+                                <div class="info ms-2">
+                                    <h4>REVENUE</h4>
+                                    <p>52,368</p>
+                                </div>
+                            </div>
+                            <div class="rightpart position-absolute end-0">
+                                <div class="polygon d-flex justify-content-end red" >
+                                    <p>- 28%</p>
+                                </div>
+                                <img class="mt-2" src="icons/down-arrow-alt-regular-24.png" alt="-" height="23px">
+                            </div>
+                        </div>
+                        <div class="past d-flex ms-3 me-3 justify-content-between">
+                            <p>Since last month</p>
+                            <img src="icons/right-arrow-alt-regular-24.png" alt="expand" height="23px">
+                        </div>
+                    </div>
+                    <!-- card-3 -->
+
+                    <div class="card ms-4 position-relative">
+                        <div class="d-flex">
+                            <div class="mt-3 ms-3 me-3 d-flex flex-row">
+                                <img src="icons/a.png" alt="order_img" height="55px">
+                                <div class="info ms-2">
+                                    <h4>AVERAGE&nbspPRICE</h4>
+                                    <p>15.8</p>
+                                </div>
+                            </div>
+                            <div class="rightpart position-absolute end-0">
+                                <div class="polygon d-flex justify-content-end blue" >
+                                    <p>00%</p>
+                                </div>
+                                <img class="mt-2" src="icons/up-arrow-alt-regular-24.png" alt="+" height="23px">
+                            </div>
+                        </div>
+                        <div class="past d-flex ms-3 me-3 justify-content-between">
+                            <p>Since last month</p>
+                            <img src="icons/right-arrow-alt-regular-24.png" alt="expand" height="23px">
+                        </div>
+                    </div>
+                    <!-- card-4 -->
+
+                    <div class="card ms-4 position-relative">
+                        <div class="d-flex">
+                            <div class="mt-3 ms-3 me-3 d-flex flex-row">
+                                <img src="icons/productsold.png" alt="order_img" height="55px">
+                                <div class="info ms-2">
+                                    <h4>PRODUCT SOLD</h4>
+                                    <p>2436</p>
+                                </div>
+                            </div>
+                            <div class="rightpart position-absolute end-0">
+                                <div class="polygon d-flex justify-content-end yellow" >
+                                    <p>+ 84%</p>
+                                </div>
+                                <img class="mt-2" src="icons/up-arrow-alt-regular-24.png" alt="+" height="23px">
+                            </div>
+                        </div>
+                        <div class="past d-flex ms-3 me-3 justify-content-between">
+                            <p>Since last month</p>
+                            <img src="icons/right-arrow-alt-regular-24.png" alt="expand" height="23px">
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end of card -->
+                <!-- start of  table -->
+
+                <div class="transactionchatcontainer mb-4 mt-5 d-flex flex-row flex-wrap">
+                    <div class="transactiontable ms-4">
+                        <p class="mt-2 ms-3">Latest Transaction</p>
+                        <div class="tableclass">
+                            <table class="table" >
+                                <tr>
+                                    <th>(#)Id</th> <th>Name</th> <th>Date</th> <th>Amount</th> <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td>#14256</td> <td class="d-flex align-items-center"><img class="l_img me-2" src="https://media.istockphoto.com/photos/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-picture-id1180926773" alt="image">Philip Smead</td> <td>15/1/2019</td> <td>$94</td> <td><div class="delivered"><wrap>Delivered</wrap></div></td> <td><button class="btn btn-primary btn-sm">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>#14256</td> <td class="d-flex align-items-center"><img class="l_img me-2" src="https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg" alt="image">Brent Shipley</td> <td>16/1/2019</td> <td>$112</td> <td><div class="pending"><wrap>Pending</wrap></div></td> <td><button class="btn btn-primary btn-sm">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>#14256</td> <td class="d-flex align-items-center"><img class="l_img me-2" src="https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post-7.jpg" alt="image">Robert Sitton</td> <td>17/1/2019</td> <td>$116</td> <td><div class="delivered"><wrap>Delivered</wrap></div></td> <td><button class="btn btn-primary btn-sm">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>#14256</td> <td class="d-flex align-items-center"><img class="l_img me-2" src="https://www.thecharlestonphotographer.com/wp-content/uploads/2020/03/charleston-business-headshot-%C2%A9-king-street-studios-6-2.jpg" alt="image">Alberto Jackson</td> <td>18/1/2019</td> <td>$109</td> <td><div class="cancel"><wrap>Cancel</wrap></div></td> <td><button class="btn btn-primary btn-sm">edit</button></td>
+                                </tr>
+                                <tr>
+                                    <td>#14256</td> <td class="d-flex align-items-center"><img class="l_img me-2" src="https://cdn.luxe.digital/media/2019/09/12090452/business-professional-dress-code-men-harvey-specter-suit-style-luxe-digital.jpg.webp" alt="image">David Sanchez</td> <td>19/1/2019</td> <td>$120</td> <td><div class="delivered"><wrap>Delivered</wrap></div></td> <td><button class="btn btn-primary btn-sm">edit</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- end of table -->
+                    <!-- start of chat -->
+
+                    <div class="chatbox ms-4 container-fluid">
+                        <p class="mt-2">Chat</p>
+                        <div class="chatContainer d-flex flex-column">
+                            <div class="d-flex flex-row align-items-center mt-2">
+                                <img class="l_img me-2" src="https://media.istockphoto.com/photos/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-picture-id1180926773" alt="img">
+                                <div class="msg1 d-flex flex-column">
+                                    <h4 class="p-0 m-0">shipley</h4>
+                                    <p class="p-0 m-0">Hello</p>
+                                </div>
+                            </div>
+                            <div class="mt-2 d-flex justify-content-end">
+                                <div class="msg2">
+                                    <h4 class="p-0 m-0">luffy</h4>
+                                    <p class="p-0 m-0">Hi, How are you?</p>
+                                </div>
+                                <img class="l_img ms-2" src="https://www.kindpng.com/picc/m/86-868291_one-piece-luffy-chibi-hd-png-download.png" alt="img">
+                            </div>
+                            <div class="mt-2 d-flex">
+                                <img class="l_img me-2" src="https://media.istockphoto.com/photos/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-picture-id1180926773" alt="img">
+                                <div class="msg1">
+                                    <h4 class="p-0 m-0">shipley</h4>
+                                    <p class="p-0 m-0">Yeah everything is fine</p>
+                                </div>
+                            </div>
+                            <div class="mt-2 d-flex justify-content-end">
+                                <div class="msg2">
+                                    <h4 class="p-0 m-0">luffy</h4>
+                                    <p class="p-0 m-0">wow thats great</p>
+                                </div>
+                                <img class="l_img ms-2" src="https://www.kindpng.com/picc/m/86-868291_one-piece-luffy-chibi-hd-png-download.png" alt="img">
+                            </div>
+                            <div class="mt-2 d-flex">
+                                <img class="l_img me-2" src="https://media.istockphoto.com/photos/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-picture-id1180926773" alt="img">
+                                <div class="msg1">
+                                    <h4 class="p-0 m-0">shipley</h4>
+                                    <p class="p-0 m-0">How are you?</p>
+                                </div>
+                            </div>
+                            <div class="mt-2 d-flex justify-content-end">
+                                <div class="msg2">
+                                    <h4 class="p-0 m-0">luffy</h4>
+                                    <p class="p-0 m-0">wow thats great</p>
+                                </div>
+                                <img class="l_img ms-2" src="https://www.kindpng.com/picc/m/86-868291_one-piece-luffy-chibi-hd-png-download.png" alt="img">
+                            </div>
+                            <div class="mt-2 d-flex">
+                                <img class="l_img me-2" src="https://media.istockphoto.com/photos/studio-waist-up-portrait-of-a-beautiful-businesswoman-with-crossed-picture-id1180926773" alt="img">
+                                <div class="msg1">
+                                    <h4 class="p-0 m-0">shipley</h4>
+                                    <p class="p-0 m-0">How are you?</p>
+                                </div>
+                            </div>
+                            <div class="mt-2 d-flex justify-content-end">
+                                <div class="msg2">
+                                    <h4 class="p-0 m-0">luffy</h4>
+                                    <p class="p-0 m-0">balayya</p>
+                                </div>
+                                <img class="l_img ms-2" src="https://www.kindpng.com/picc/m/86-868291_one-piece-luffy-chibi-hd-png-download.png" alt="img">
+                            </div>
+                        </div>
+
+                        <div class="sendinput mt-4">
+                            <form class="d-flex justify-content-between">
+                                <input type="text" placeholder="Enter your text" required>
+                                <button class="btn btn-success btn-sm">send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+        </div>
+    </div>
+    <!-- end of chat -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
